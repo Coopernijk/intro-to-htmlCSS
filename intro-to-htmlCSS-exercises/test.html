@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example</title>
+    <style>
+    .container { 
+      display: flex;
+      flex-direction: column;
+      width: 1600px;
+      }
+    .red {
+      background: red;
+      display: flex;
+      flex-direction: row;
+    }
+    .gray{
+      background-color: gray;
+    }
+    .green {
+      background: yellowgreen;
+    }
+    .blue {
+      background: steelblue;
+    }
+    .container div {
+      font-size: 1vw;
+      padding: .5em;
+      margin: 0px;
+      color: white;
+      flex: 0 1 10%;
+    }
+
+
+
+    .flex-container {
+      background-color: #f4f7f8;
+      resize: horizontal;
+      display: flex;
+      margin: 1em;
+      flex-wrap: wrap;
+    }
+    .item {
+      margin: 1em;
+      padding: 1em;
+      color: black;
+      font-family: Verdana;
+      font-size: 20px;
+      align-content: center;
+    }
+    .four {
+      flex: 1;
+    }
+    .two {
+      flex: 30;
+    }
+    .one {
+      flex: 50;
+      display: flex;
+      width: 100%;
+      justify-content: center;  /* horizontal center */
+      align-items: center;      /* vertical center */
+      flex-direction: column;
+    }
+    .input0,
+    .input1{
+      width: 350px;
+      height: 20px;
+      margin-top: 5px;
+    }
+
+
+
+    .flexmom{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .flexchild0{
+      width: 50%;
+    }
+    .flexchild1{
+      display: flex;
+      gap: 6px;
+      flex-direction: row;
+      width: 50%;
+    }
+    .flexchild1 > *{
+      background-color: aqua;
+    }
+    .flexgrandchild0{
+      flex: 1;
+    }
+    .flexgrandchild1{
+      flex: 1;
+    }
+    </style>
+    </head>
+
+
+    <body>
+    <div class="container">
+      <div class="red">1
+        <div class="gray">0a</div>
+        <div class="green">1a</div>
+        <div class="blue">1b</div>
+      </div>
+      <div class="green">2</div>
+      <div class="blue">3</div>
+    </div>
+
+    <div class="flex-container">
+      <div class="item four">8a.</div>
+      <div class="item two">Create 2 text boxes and put them on separate lines (using display: block)</div>
+      <div class="item one"><input class="input0" type="text"><input class="input1" type="text"></div>
+    </div>
+
+    <div class="flexmom">
+        <p class="flexchild0">Lorem Ipsum</p>
+        <div class="flexchild1">
+          <input class="flexgrandchild0" type="text">
+          <input class="flexgrandchild1" type="text">
+          <input class="flexgrandchild2" type="text">
+          <button class="flexgrandchild3">Click Me!</button>
+        </div>
+      </div>
+  </body>
+</html>

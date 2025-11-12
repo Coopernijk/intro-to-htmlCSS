@@ -1,0 +1,18 @@
+
+div{
+  margin: 100px;
+  padding: 90px;
+  color: black;
+  background-color: bisque;
+  text-align: center;
+  font-family: Montserrat;
+}
+.p1{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: -5px;
+  background-color:aqua;
+}
+span{
+  text-decoration: underline;
+}
