@@ -1,0 +1,245 @@
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #405d7c;
+  --secondary: #e67e22;
+  --accent: #3498db;
+  --light: #a4f0d6;
+  --dark: #e2e2e2;
+  --text: #443232;
+  --phat: #25555556;
+  --widthbox: 350px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Roboto;
+}
+
+.headerone{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.flexion0,
+.flexion1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.section1 {
+  background-color: var(--primary);
+  width: var(--widthbox)
+}
+.redsquare {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+
+.section2 {
+  background-color: var(--secondary);
+  width: var(--widthbox)
+}
+.greencircle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+
+.section3 {
+  background-color: var(--accent);
+  width: var(--widthbox)
+}
+.costumerservice {
+  border: 1px solid gray;
+  background-color: white;
+  margin: 5px;
+  padding: 15px;
+}
+.btns {
+  margin-top: 14px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+
+.section4 {
+  background-color: var(--light);
+  width: var(--widthbox)
+}
+.ytmusic {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  padding: 20px;
+}
+.ytmusicheader {
+  font-weight: 900;
+  font-size: larger;
+  margin-bottom: 5px;
+}
+.ytmusicdesc {
+  font-size: 13px;
+}
+
+
+.section5 {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+.subsection5 {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .05),
+              0 2px 4px 1px rgba(0, 0, 0, .09);
+  margin: 10px;
+  padding: 15px;
+}
+.subsection5 img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.subsection5 input {
+  width: 250px;
+  border-style: none;
+  margin-left: 10px;
+}
+.subsection5 button {
+  width: 60px;
+  height: 30px;
+  border-radius: 50px;
+  border-style: none;
+  background-color: #3498db;
+  color: white;
+  font-weight: bolder;
+}
+
+
+.section6 {
+  background-color: var(--phat);
+}
+.subsection6 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .05),
+              0 2px 4px 1px rgba(0, 0, 0, 0.486);
+  display: flex;
+  flex-direction: column;
+}
+.subsection6 img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+}
+.subsection6 button {
+  border-style: none;
+  border-radius: 5px;
+  margin-bottom: 6px;
+  background-color: #2875a8;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+.subsection6 b,
+.subsection6 p,
+.subsection6 button {
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
+
+.section7 {
+  background-color: var(--phat);
+  width: 563px;
+}
+.subsection7 {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  margin-right: 15px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .05),
+              0 2px 4px 1px rgba(0, 0, 0, 0.486);
+}
+.subsection7 b{
+  display: block;
+}
+.subsection7 img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+}
+.subsection7 button {
+  border-style: none;
+  border-radius: 5px;
+  margin-bottom: 6px;
+  background-color: #2875a8;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+.subsection7 b,
+.subsection7 p,
+.subsection7 button {
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
+
+.section8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: var(--dark);
+}
+.googlelogo{
+  width: 400px;
+  margin-bottom: 20px;
+}
+.googleinput{
+  font-size: 30px;
+  margin-bottom: 40px;
+  width: 900px;
+  height: 65px;
+  padding-left: 25px;
+  border-radius: 50px;
+  border-color: rgb(199, 199, 199);
+  border-style: none;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .05),
+              0 2px 4px 1px rgba(0, 0, 0, .09);
+}
+.googlebtns {
+  display: flex;
+  gap: 30px;
+}
+.button1,
+.button2 {
+  border-style: none;
+  width: 260px;
+  height: 40px;
+}
