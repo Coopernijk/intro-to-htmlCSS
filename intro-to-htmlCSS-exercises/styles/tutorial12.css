@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: bisque;
+  font-family: Roboto;
+}
+.flexhead {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-weight: 900;
+  font-size: 36px;
+}
+.mainflex1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+  justify-items: center;
+  margin: 20px;
+}
+.a12,
+.b12,
+.c12,
+.d12 {
+  display: flex;
+}
+.odde {
+  background-color: lightblue;
+}
+.even {
+  background-color: lightpink;
+}
+
+
+.a12 .odde {
+  width: 200px;
+}
+.a12 .even {
+  width: 75px;
+}
+
+
+.item12b1 {
+  width: 50px;
+}
+.item12b2 {
+  flex: 1;
+}
+.item12b3 {
+  width: 75px;
+}
+
+
+.c12 {
+  background-color: white;
+  justify-content: space-between;
+}
+
+
+.d12 {
+  background-color: white;
+  border: 1px solid gray;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+
+
+.Challenge {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px 50px 20px 50px;
+  color: red;
+  text-decoration: underline;
+}
+
+.mainflex2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.e12 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 80px;
+  padding: 10px;
+  row-gap: 10px;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .05),
+              0 2px 4px 1px rgba(0, 0, 0, 0.486);
+}
+.sub-e12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sub-e12-2,
+.sub-e12-4,
+.sub-e12-6 {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 2px 8px 2px 8px;
+  border-radius: 30px;
+}
+
+
+
+.mainflex3 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 350px;
+}
+.g12main {
+  display: flex;
+  column-gap: 20px;
+  gap: 10px;
+  align-items: center;
+}
+.imgmain {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 50px;
+}
+.textmain {
+  flex: 1;
+}
+.g12main p {
+  color: gray;
+}
+.g12button {
+  border-style: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #2875a8;
+  color: white;
+  width: 80px;
+  height: 30px;
+}
+
+
+
+.mainflex4 {
+  display: flex;
+  justify-content: space-between;
+  width: 770px;
+  padding: 10px;
+  background-color: rgb(155, 99, 155);
+}
+.f12a-button {
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  background-color: #2875a800;
+  border: none;
+}
+.f12b-input {
+  width: 500px;
+  height: 35px;
+  border-radius: 30px;
+  border: none;
+}
+.f12c-button {
+  width: 90px;
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  background-color: #2875a800;
+  border: solid white 1px;
+}
