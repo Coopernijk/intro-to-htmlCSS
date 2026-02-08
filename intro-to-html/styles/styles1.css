@@ -1,0 +1,14 @@
+
+.thumbnail{
+  border: 2px solid red;
+  width: 300px;
+  display: block;
+}
+.searchbar{
+  font-size: 20px;
+  margin-left: 12px;
+  display: block;
+}
+.title{
+  width: 300px;
+}

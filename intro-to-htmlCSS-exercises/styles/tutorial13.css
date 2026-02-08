@@ -1,0 +1,250 @@
+
+
+
+
+* {
+  font-family: Arial;
+}
+.texthead {
+  display: flex;
+  justify-content: center;
+  color: red;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight:900;
+}
+
+
+
+.mainflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+.nestflex0 {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+.descript0 {
+  width: 300px;
+}
+.blue {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  justify-content: start;
+}
+.pink {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item1 {
+  background-color: black;
+  color: white;
+}
+.row1 {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.row2 p {
+  color: white;
+  background-color: black;
+}
+
+
+.col1 {
+  background-color: lightpink;
+  width: 100px;
+}
+.col2 {
+  background-color: lightblue;
+  width: 200px;
+}
+.row2item {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+.challengeflex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 10px 15px 10px 15px;
+  gap: 20px;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+.mainbox1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+.subbox1 {
+  /* the cause of missaligned time
+  display: flex;
+  flex-direction: column;
+  */
+  flex: 1;
+}
+.block1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.profilehead {
+  font-size: 16px;
+}
+.profiletime {
+  font-size: 14px;
+}
+.pfimage {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.blacktext {
+  font-weight: bolder;
+}
+.graytext {
+  color: gray;
+}
+
+/* super simple answer */
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.inbox-label {
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+  margin-bottom: 20px;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sender-picture-container {
+  margin-right: 10px;
+}
+
+.sender-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.email-content {
+  flex: 1;
+}
+
+.email-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.sender-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.send-time {
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+}
+
+.subject {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message {
+  color: rgb(120, 120, 120);
+}
+
+
+
+.flexbox2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainbox2 {
+  padding: 10px 10px 10px 10px;
+  width: 410px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+.mainmail {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.a-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.b-mail {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.ba-header {
+  display: flex;
+  gap: 5px;
+}
+.headerleft {
+  font-weight: 400;
+}
+.headerright {
+  color: gray;
+}
