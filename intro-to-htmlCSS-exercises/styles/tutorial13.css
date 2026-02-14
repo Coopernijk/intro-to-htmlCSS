@@ -248,3 +248,24 @@
 .headerright {
   color: gray;
 }
+.bb-message {
+  line-height: 1.5;
+}
+
+.yt-header {
+  display: flex;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(224, 224, 224);
+}
+.gray-bg {
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  background-color: rgb(214, 214, 214);
+  width: 170px;
+}
+.yt-desc {
+  padding: 15px;
+  line-height: 1.3;
+}

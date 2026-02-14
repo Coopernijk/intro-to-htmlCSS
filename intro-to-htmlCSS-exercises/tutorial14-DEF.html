@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<!-- -->
+<head>
+  <title>Lesson 14 Excercises - Position Fixed</title>
+  <link rel="stylesheet" href="styles/tutorial14-DEF.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- 14d.1 -->
+  <div class="allblack"></div>
+  
+  <div class="flexheader">
+    <div class="texthead">
+      <div>Lesson 14 Excercises - Position Fixed</div>
+      <div>For these excercises, set the height to 3000px so you can scroll</div>
+    </div>
+    <ul class="excerciselist">
+      <li>14.d We'll create a model
+        <ul>
+          <li>start from excercise from 14b.</li>
+          <li>create an element that covers the entire page, with background color: rgba(0, 0, 0, 0.8); <br>(this is called an overlay)</li>
+          <li>make the overlay a flexbox and center its contents horizontally and vertically</li>
+          <li>add a &lt;div&gt; in the overlay and create the modal</li>
+        </ul>
+        </li><br>
+      <li>14e. Use a combination of position: fixed and flexbox to create this header from Facebook and stick it to the top of the page <br>(feel free to use a different image/name)</li><br>
+      <li>14f. Create the double-sidebar from Discord using a combination of position: fixed and flexbox
+        <ul>
+          <li>stick it to the left side of the page</li>
+          <li>feel free to use different images</li>
+        </ul>
+        </li>
+    </ul>
+  </div>
+
+  <div class="modalbg">
+    <div class="flexmodal">
+      <div class="modal">
+        <p class="modaltitle">Modal Title</p>
+        <p class="modaldescription">This is a modal</p>
+        <button class="modalbutton">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!--14e-->
+  <div class="headerbar">
+    <div class="profile">
+      <img src="styles/cat.jpg" alt="" class="catpic">
+      <p>Oliver Cat</p>
+    </div>
+    <div class="buttons">
+      <button class="button1">Add Friend</button>
+      <button class="button2">Message</button>
+    </div>
+  </div>
+  
+  <div class="sidebar">right sidebar</div>
+
+  <!--14f-->
+  <div class="dcsidebars">
+    <div class="dcsidebarinfo">
+      <div class="infoheader">
+        <div class="whiteheader">INFO</div>
+        <div class="gray plussize">+</div>
+      </div>
+      <div class="infochannel gray">
+        <div># new-videos</div>
+        <div># updates</div>
+        <div># faq</div>
+      </div>
+    </div>
+    <div class="dcsidebarpfp">
+      <img src="styles/cat.jpg" alt="" class="pfpimage">
+      <img src="styles/cat2.jpg" alt="" class="pfpimage">
+      <img src="styles/dog.jpg" alt="" class="pfpimage">
+    </div>
+  </div>
+  
+</body>
+
+</html>
