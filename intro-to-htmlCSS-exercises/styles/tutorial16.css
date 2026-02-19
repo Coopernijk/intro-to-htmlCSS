@@ -90,6 +90,39 @@ a {
   width: 36px;
   border-radius: 50%;
 }
+.pfp-container .hover-container {
+  display: inline-block;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 1px 6px rgba(0, 0, 0, 0.1);
+  width: 201px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.pfp-container:hover .hover-container {
+  opacity: 1;
+}
+.profile-picture-hover {
+  width: 50px;
+  border-radius: 50%;
+}
+.metadata-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.bolder {
+  font-weight: 600;
+  font-size: 16.5px;
+}
 .thumbnail-row {
   margin-bottom: 8px;
   position: relative;
