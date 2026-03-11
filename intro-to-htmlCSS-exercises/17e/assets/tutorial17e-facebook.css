@@ -4,3 +4,187 @@
   padding: 0;
   font-family: 'Segoe UI', Arial;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Fill the screen height */
+}
+
+
+
+.vertical-part {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+
+.part-left {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: space-around;
+  align-items: start;
+  left: 0;
+  height: 150%;
+  margin-left: 30px;
+}
+.logo-fb {
+  width: 60px;
+  height: 60px;
+}
+.slogan {
+  max-width: 270px;
+  max-height: 264px;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.blue-mark {
+  width: 270px;
+  height: 264px;
+  font-size: 50px;
+  font-weight: 600;
+  max-width: 250px;
+  color: rgb(38, 114, 228);
+}
+
+
+
+.part-middle {
+  width: 100%; /* Or any responsive width */
+  height: 1000px; /* Requires a defined height */
+}
+.part-middle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+
+
+.middle-line {
+  border-left: 1px solid rgb(221, 221, 221);
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  right: 650px;
+}
+
+
+
+.part-right {
+  width: 750px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 30px;
+}
+.part-right-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gaps-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.input-title {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 19px;
+  font-weight: 600;
+}
+.input {
+  width: 546px;
+  height: 61px;
+  border-radius: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+.button-login {
+  width: 546px;
+  height: 44px;
+  border-radius: 22px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(38, 114, 228);
+}
+.button-login-help {
+  width: 546px;
+  height: 44px;
+  font-size: 15px;
+  font-weight: 600;
+  border-style: none;
+  background-color: rgba(240, 248, 255, 0);
+}
+.button-newaccount {
+  width: 546px;
+  height: 44px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 50px;
+  border-radius: 22px;
+  color: rgb(38, 114, 228);
+  border-color: rgb(38, 114, 228);
+  background-color: rgba(0, 0, 0, 0);
+}
+.logo-meta {
+  width: 60px;
+  height: 12px;
+  margin-top: 30px;
+}
+
+
+
+.horizontal-part {
+  z-index: 20;
+  background-color: white;
+  border-top: 1px solid rgb(200, 200, 200);
+  left: 0;
+  right: 0;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 10px 200px;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+
+
+
+
+
+
+@media (max-width:1350px) {
+  .slogan,
+  .blue-mark {
+    width: 280px;
+    height: 196px;
+    font-size: 45px;
+  }
+}
+
+@media (min-width:1351px){
+  .slogan,
+  .blue-mark {
+    max-width: 270px;
+    max-height: 264px;
+    font-size: 55px;
+  }
+}
