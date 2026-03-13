@@ -59,8 +59,8 @@ body {
   height: 1000px; /* Requires a defined height */
 }
 .part-middle img {
-  width: 100%;
-  height: 100%;
+  width: 110%;
+  height: 110%;
   object-fit: contain;
   object-position: center;
 }

@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe Ui';
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+
+.upper-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+}
+
+
+
+.left-part {
+  background-color: black;
+  flex: 1;
+}
+.ig-icon {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.left-part-centre {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 680px;
+}
+.slogan {
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+  width: 50vw;
+  height: 10vw;
+}
+.bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+
+
+.right-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(35, 35, 35);
+  color: white;
+  top: 0;
+  bottom: 0;
+  border-left: 1px solid rgb(73, 73, 73);
+}
+.flex-top {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.direction {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.flex-form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.form {
+  width: 546px;
+  height: 60px;
+  border-radius: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: 1px solid gray;
+}
+.flex-form2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 50px;
+}
+.button-main {
+  width: 546px;
+  height: 44px;
+  border-radius: 22px;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border: 1px solid gray;
+}
+.blue-mark1 {
+  background-color: rgba(43, 160, 255, 0.474);
+  border: none;
+}
+.flex-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.flex-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.img-button {
+  width: 15px;
+  height: 15px;
+}
+.blue-mark2 {
+  border: 1px solid rgb(43, 160, 255);
+  color:  rgb(43, 160, 255);
+}
+.meta-loga {
+  width: 85px;
+  height: 38px;
+  margin-top: 20px;
+}
+
+
+
+footer {
+  left: 0;
+  right: 0;
+  border-top: 1px solid gray;
+  background-color: black;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 400px;
+  font-size: 12px;
+  color: white;
+}
+select {
+  appearance: none;          /* Removes default arrow and styling */
+  -webkit-appearance: none;   /* For Safari/Chrome */
+  -moz-appearance: none;      /* For Firefox */
+  border: none;              /* Removes the box border */
+  background: transparent;   /* Makes it blend with the page background */
+  font: inherit;             /* Inherits font size/family from parent text */
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;           /* Keeps it feeling interactive */
+  color: inherit;            /* Matches surrounding text color */
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
