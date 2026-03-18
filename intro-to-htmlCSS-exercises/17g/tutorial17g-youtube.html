@@ -1,0 +1,202 @@
+
+<html>
+
+  <head>
+   <title>Lesson 17 Excercises - More CSS Features</title>
+   <link rel="stylesheet" href="assets/tutorial17g-youtube.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+<body>
+  <header class="header"> <!--16a.-->
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+      <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+    </div>
+
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg" alt="">
+        <div class="tooltip">Search</div>
+      </button>
+      <!--Put position absolute inside position relative-->
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg" alt="">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="upload-icon-container">
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+        <div class="tooltip">YouTube apps</div>
+      </div>
+      <div class="upload-icon-container">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg" alt="">
+          <div class="notifications-count">3</div>
+        </div>
+        <div class="tooltip">Notifications</div>
+      </div>
+      <img class="current-user-picture" src="channel-pictures/my-channel.jpeg" alt="">
+    </div>
+  </header>
+
+
+
+
+  <main>
+  
+    <div class="flexvertical">
+
+      <section class="section-video-player">
+        <iframe class="main-yt-video" src="https://www.youtube.com/embed/ixmxOlcrlUc?si=uV6wlKGSVhc_nCDxc"></iframe>
+        
+        <p class="main-video-title">The SECRET to Super Human STRENGTH</p>
+
+        <div class="horizontal-interface">
+          <div class="main-channel">
+            <img class="main-channel-picture" src="channel-pictures/channel-9.jpeg" alt="">
+            <div class="main-name-and-subscription">
+              <p class="main-name">THENX</p>
+              <p class="main-subscribers">7.83M subscribers</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="description">
+          <p class="views-and-age">24M views 7 years ago</p>
+          <p>
+            find out the SECRET to super human STRENGTH in this episode of thenx with Chris Heria! <br><br>
+            GET THIS WORKOUT ON YOUR PHONE: https://share.thenx.com/share/AHABkSZ... <br>
+            Get the Music in the video made by Chris Heria:
+          </p>
+        </div>
+      </section>
+
+
+      <section class="section-video-list">
+        <div class="sub-video">
+          <img class="sub-thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
+          <div class="flex-sub">
+            <p class="sub-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+            <p class="sub-channel">Marques Brownlee</p>
+            <p class="sub-views-age">3.4M views · 6 months ago</p>
+          </div>
+        </div>
+
+        <div class="sub-video">
+          <img class="sub-thumbnail" src="thumbnails/thumbnail-2.webp" alt="">
+          <div class="flex-sub">
+            <p class="sub-title">Try not To Laugh Challenge #9</p>
+            <p class="sub-channel">Markiplier</p>
+            <p class="sub-views-age">19M views · 4 years ago</p>
+          </div>
+        </div>
+
+        <div class="sub-video">
+          <img class="sub-thumbnail" src="thumbnails/thumbnail-3.webp" alt="">
+          <div class="flex-sub">
+            <p class="sub-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+            <p class="sub-channel">SSSniperWolf</p>
+            <p class="sub-views-age">12M views · 1 year ago</p>
+          </div>
+        </div>
+
+        <div class="sub-video">
+          <img class="sub-thumbnail" src="thumbnails/thumbnail-4.webp" alt="">
+          <div class="flex-sub">
+            <p class="sub-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+            <p class="sub-channel">Veritasium</p>
+            <p class="sub-views-age">18M views · 4 months ago</p>
+          </div>
+        </div>
+
+        <div class="sub-video">
+          <img class="sub-thumbnail" src="thumbnails/thumbnail-5.webp" alt="">
+          <div class="flex-sub">
+            <p class="sub-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+            <p class="sub-channel">CS Dojo</p>
+            <p class="sub-views-age">519K views · 5 year ago</p>
+          </div>
+        </div>
+
+        <div class="sub-video">
+          <img class="sub-thumbnail" src="thumbnails/thumbnail-6.webp" alt="">
+          <div class="flex-sub">
+            <p class="sub-title">Anything You Can Fit In The Circle I’ll Pay For</p>
+            <p class="sub-channel">MrBeast</p>
+            <p class="sub-views-age">141M views · 1 year ago</p>
+          </div>
+        </div>
+
+        <div class="sub-video">
+          <img class="sub-thumbnail" src="thumbnails/thumbnail-7.webp" alt="">
+          <div class="flex-sub">
+            <p class="sub-title">Why Planes Don't Fly Over Tibet</p>
+            <p class="sub-channel">RealLifeLore</p>
+            <p class="sub-views-age">6.6M views · 1 year ago</p>
+          </div>
+        </div>
+
+        <div class="sub-video">
+          <img class="sub-thumbnail" src="thumbnails/thumbnail-8.webp" alt="">
+          <div class="flex-sub">
+            <p class="sub-title">Inside The World's Biggest Passenger Plane</p>
+            <p class="sub-channel">Tech Vision</p>
+            <p class="sub-views-age">3.7M views · 10 months ago</p>
+          </div>
+        </div>
+
+        <div class="sub-video">
+          <img class="sub-thumbnail" src="thumbnails/thumbnail-9.webp" alt="">
+          <div class="flex-sub">
+            <p class="sub-title">The SECRET to Super Human STRENGTH</p>
+            <p class="sub-channel">ThenX</p>
+            <p class="sub-views-age">20M views · 3 year ago</p>
+          </div>
+        </div>
+
+        <div class="sub-video">
+          <img class="sub-thumbnail" src="thumbnails/thumbnail-10.webp" alt="">
+          <div class="flex-sub">
+            <p class="sub-title">How The World's Largest Cruise Ship Makes 30,000 Meals Every Day</p>
+            <p class="sub-channel">Business Insider</p>
+            <p class="sub-views-age">14M views · 1 year ago</p>
+          </div>
+        </div>
+
+        <div class="sub-video">
+          <img class="sub-thumbnail" src="thumbnails/thumbnail-11.webp" alt="">
+          <div class="flex-sub">
+            <p class="sub-title">Dubai's Crazy Underwater Train and Other Things #Only in Dubai</p>
+            <p class="sub-channel">Destination Tips</p>
+            <p class="sub-views-age">3M views · 1 year ago</p>
+          </div>
+        </div>
+
+        <div class="sub-video">
+          <img class="sub-thumbnail" src="thumbnails/thumbnail-12.webp" alt="">
+          <div class="flex-sub">
+            <p class="sub-title">What would happen if you didn’t drink water? - Mia Nacamulli</p>
+            <p class="sub-channel">TED-Ed</p>
+            <p class="sub-views-age">12M views · 5 year ago</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+
+
+    <section class="section-video-comment">
+
+    </section>
+  </main>
+
+</body>
